@@ -7,14 +7,14 @@ Status Code Scavenger Hunt!
 Use Postman to find each of the following HTTP codes:
 
 
-1. 200
-1. 301
-1. 400
-1. 401
-1. 403
-1. 404
-1. 418
-1. 500
+1. 200 - The request has succeeded.
+1. 301 - The URL of the requested resource has been changed. 
+1. 400 - The server could not understand the request due to invalid syntax.
+1. 401 - That is, the client must authenticate itself to get the requested response.
+1. 403 - The client does not have access/rights to the content.
+1. 404 - The server can not find requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 to hide the existence of a resource from an unauthorized client. This response code is probably the most famous one due to its frequent occurrence on the web.
+1. 418 - The server refuses the attempt to brew coffee with a teapot.
+1. 500 - The server has encountered a situation it doesn't know how to handle.
 
 
 For each of the questions below, write:
